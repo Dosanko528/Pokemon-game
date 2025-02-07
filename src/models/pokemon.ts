@@ -5,7 +5,8 @@ export type PokemonType = "Fire" | "Water" | "Grass" | "Electric" | "Psychic"
 //ポケモンのデータ構造を定義
 export interface Pokemon {
     id: number;
-    name: PokemonType;
+    name: string;
+    type: PokemonType;
     hp: number;
     attack: number;
     defense: number;
